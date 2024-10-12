@@ -1,0 +1,17 @@
+Aufgabe 2: Textaufgabe: Compilieren & Ausf¨uhren ↑ nach VL 1 [ 4 Punkte ]
+Angenommen, Sie wollen die java-Quellcode-Datei Hello.java ¨uber die Konsole com-
+pilieren (sodass die zugeh¨orige class-Datei entsteht) und ausf¨uhren. Die Datei liegt im
+Ordner /home/jinora/progra/Blatt01 .
+Welche Befehle m¨ussen Sie daf¨ur auf der Konsole ausf¨uhren? Was ist der Zweck der jewei-
+ligen Befehle? (Ein Satz pro Befehl ist als Beschreibung ausreichend.)
+Schreiben Sie Ihre Antwort in eine Plaintext-Datei antwort.txt
+
+
+cd /home/jinora/progra/Blatt01
+-> ich gehe auf den Zielordner, damit die nächsten ausgeführten Befehle die Dateien in diesem Ordner berücksichtigen
+
+javac Hello.java
+-> die hello.java datei wird compiliert, wodurch sie nun von der Maschiene ausfühbar ist.
+
+java Hello.java
+-> "java" ist der Befehl, um die java Datei schlussendlich auszuführen
